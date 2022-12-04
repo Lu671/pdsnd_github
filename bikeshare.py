@@ -170,7 +170,7 @@ def user_stats(df):
     user_types = df['User Type'].value_counts()
     print(user_types)
     
-    #print (len(df.columns))
+    # Using len function to compare number of columns for washington dataset
     if len(df.columns) == 10 :
         print ("washington.csv does not contains gender and birth year")
     else:
