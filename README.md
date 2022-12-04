@@ -10,8 +10,10 @@ Explore US Bikeshare Data
 Using three datasets for three cities New York City, Chicago and Washington to find statistical information based on User input for month and day (Filtering) 
 
 ### Files used
-Include the files used
+new_york_city.csv
+chicago.csv
+washington.csv
 
 ### Credits
-It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
+Udacity lessons
 
