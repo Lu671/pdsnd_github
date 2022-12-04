@@ -57,11 +57,7 @@ def load_data(city, month, day):
         (str) day - name of the day of week to filter by, or "all" to apply no day filter
     Returns:
         df - Pandas DataFrame containing city data filtered by month and day
-    """
-    #chicago = pd.read_csv('chicago.csv')
-    #new_york = pd.read_csv('new_york_city.csv')
-    #washington = pd.read_csv('washington.csv')
-    
+    """"
    
     # load data file into a dataframe
     df = pd.read_csv(CITY_DATA[city])
@@ -173,7 +169,7 @@ def user_stats(df):
     user_types = df['User Type'].value_counts()
     print(user_types)
     
-    #print (len(df.columns))
+    # Using len function to compare number of columns for washington dataset
     if len(df.columns) == 10 :
         print ("washington.csv does not contains gender and birth year")
     else:
@@ -191,12 +187,11 @@ def user_stats(df):
     print('-'*40)
     
 def print_rows(df):
-    # Displays raw data depends on the user input.
-        #Number of rows to show
+    # Displays rows depends on the user input.
+        # Number of rows to show
         x = 5
-        #Number of rows in df
+        # Number of rows in df
         n = df.count()[0]
-        #print(n)
         try:
           prompt = int(input("Would you like to see raw data? Enter 1 = yes OR 0 = no: "))
           if prompt == 1:
