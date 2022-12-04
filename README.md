@@ -7,7 +7,7 @@
 Explore US Bikeshare Data
 
 ### Description
-Describe what your project is about and what it does
+Using three datasets for three cities New York City, Chicago and Washington to find statistical information based on User input for month and day (Filtering) 
 
 ### Files used
 Include the files used
