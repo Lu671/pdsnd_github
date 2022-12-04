@@ -58,11 +58,7 @@ def load_data(city, month, day):
         (str) day - name of the day of week to filter by, or "all" to apply no day filter
     Returns:
         df - Pandas DataFrame containing city data filtered by month and day
-    """
-    #chicago = pd.read_csv('chicago.csv')
-    #new_york = pd.read_csv('new_york_city.csv')
-    #washington = pd.read_csv('washington.csv')
-    
+    """"
    
     # load data file into a dataframe
     df = pd.read_csv(CITY_DATA[city])
