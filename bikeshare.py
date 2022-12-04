@@ -188,12 +188,11 @@ def user_stats(df):
     print('-'*40)
     
 def print_rows(df):
-    # Displays raw data depends on the user input.
-        #Number of rows to show
+    # Displays rows depends on the user input.
+        # Number of rows to show
         x = 5
-        #Number of rows in df
+        # Number of rows in df
         n = df.count()[0]
-        #print(n)
         try:
           prompt = int(input("Would you like to see raw data? Enter 1 = yes OR 0 = no: "))
           if prompt == 1:
